@@ -13,9 +13,9 @@ class Solution:
         
         # The loop moves the "read" pointer across the list.
         for read in range(len(nums)):
-            # For each nums[read]:
+            # For each [read]:
             # 1. If we’ve written fewer than two numbers so far (write < 2), we always keep the current one.
-            # 2. Otherwise, we compare the current value to the one two spots back (nums[write - 2]). If they’re different, it means this is a new number or only the second duplicate — so we keep it.
+            # 2. Otherwise, we compare the current value to the one two spots back [write - 2]. If they’re different, it means this is a new number or only the second duplicate — so we keep it.
                 
             if write < 2 or nums[read] != nums[write - 2]:
                 # If the condition is true, this value is allowed.
@@ -25,5 +25,5 @@ class Solution:
 
             # If the condition is false, it means this is the third (or later) occurrence of the same number — so we skip it.
             
-        # "write" now equals the length of the valid portion of the array.
+        # "write" is now equal to the length of the valid portion(only two pair of duplicates not more than that) of the array.
         return write
