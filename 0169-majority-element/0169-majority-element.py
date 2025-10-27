@@ -13,8 +13,8 @@ class Solution:
                 # suppose if this is not the first iteration, and it's votes are equal then we would elect the next candidate. i.e. candidate = (n <- current candidate) 
                 candidate = n
 
-            # Using the Python ternary conditional expression/one-line if-else: 
-            # value_if_true if condition else value_if_false
+            # Using the Python ternary conditional expression/one-line if-else: ([value_if_true] if [condition] else [value_if_false])
+            # If the current number matches the candidate, add a vote. Otherwise, subtract a vote
             votes = votes + (1 if n == candidate else -1)
 
         return candidate
