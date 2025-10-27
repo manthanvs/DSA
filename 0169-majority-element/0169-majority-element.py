@@ -4,12 +4,13 @@ class Solution:
         votes = 0
         candidate = None
 
-        for num in nums:
+        for n in nums:
+            # here n will iterate with every nums 
             if votes == 0:
-                candidate = num
+                candidate = n
 
             # Using the Python ternary conditional expression/one-line if-else: 
             # value_if_true if condition else value_if_false
-            votes = votes + (1 if num == candidate else -1)
+            votes = votes + (1 if n == candidate else -1)
 
         return candidate
