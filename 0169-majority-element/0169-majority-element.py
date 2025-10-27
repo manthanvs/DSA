@@ -1,5 +1,6 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        # Using the Moore's voting algorithm here to effectively use the O(n) complexity. 
         votes = 0
         candidate = None
 
