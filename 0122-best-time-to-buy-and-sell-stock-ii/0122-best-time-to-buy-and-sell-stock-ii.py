@@ -12,5 +12,4 @@ class Solution:
                 profit += prices[i] - prices[i - 1]
 
             # else if the stock is in decreasing order then the there won't be any profit, and profit would remain zero as it is.
-
         return profit
