@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manthanvs/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/manthanvs/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/manthanvs/DSA/tree/master/0189-rotate-array) |
+| [0217-contains-duplicate](https://github.com/manthanvs/DSA/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 ## Two Pointers
 |  |
@@ -28,11 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/manthanvs/DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/manthanvs/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/manthanvs/DSA/tree/master/0217-contains-duplicate) |
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 ## Hash Table
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/manthanvs/DSA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/manthanvs/DSA/tree/master/0217-contains-duplicate) |
 ## Divide and Conquer
 |  |
 | ------- |
