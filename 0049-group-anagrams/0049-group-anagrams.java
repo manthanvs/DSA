@@ -48,3 +48,12 @@ class Solution {
         return res;
     }
 }
+
+// Stack Flow Summary
+
+// For each string:
+// Create frequency array
+// → Build unique key
+// → Check if key exists in map
+//     → YES → add to existing list
+//     → NO  → create new list, store in map and res
