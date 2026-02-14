@@ -1,35 +1,50 @@
 class Solution {
-
     public List<List<String>> groupAnagrams(String[] strs) {
-        if (strs == null || strs.length == 0)
-            return new ArrayList<>();
+        
+        // Map to store grouped anagrams
+        // Key   -> frequency representation of characters
+        // Value -> list of strings having same character frequency
+        HashMap<String, List<String>> map = new HashMap<>();
+        
+        // Final result list containing all grouped anagrams
+        List<List<String>> res = new ArrayList<>();
 
-        Map<String, List<String>> map = new HashMap<>();
-
-        for (String str : strs) {
-            String key = getFrequencyString(str);
-
-            map.putIfAbsent(key, new ArrayList<>());
-            map.get(key).add(str);
+        // Iterate through each string in input array
+        for(String str : strs) {
+            
+            // Create a frequency array for 26 lowercase letters (a–z)
+            char[] num = new char[26];
+            
+            // Convert current string into character array
+            char[] ch = str.toCharArray();
+            
+            // Count frequency of each character
+            for(char c : ch) {
+                num[c - 'a']++;   // Increment index based on character position
+            }
+            
+            // Convert frequency array into a String
+            // This acts as a unique key for anagrams
+            String sb = new String(num);
+            
+            // If key already exists, add string to existing list
+            if(map.containsKey(sb)){
+                map.get(sb).add(str);
+            } 
+            else {
+                // Otherwise create a new list for this anagram group
+                ArrayList<String> list = new ArrayList<>();
+                list.add(str);
+                
+                // Store new group in map
+                map.put(sb,list);
+                
+                // Also add this list to final result
+                res.add(list);
+            }
         }
-
-        return new ArrayList<>(map.values());
-    }
-
-    // This method creates a frequency-based key
-    private String getFrequencyString(String str) {
-        int[] count = new int[26];  // for a-z
-
-        for (char c : str.toCharArray()) {
-            count[c - 'a']++;
-        }
-
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 26; i++) {
-            sb.append("#");
-            sb.append(count[i]);
-        }
-
-        return sb.toString();
+        
+        // Return grouped anagrams
+        return res;
     }
 }
