@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/manthanvs/DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/manthanvs/DSA/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/manthanvs/DSA/tree/master/0189-rotate-array) |
+| [1768-merge-strings-alternately](https://github.com/manthanvs/DSA/tree/master/1768-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/manthanvs/DSA/tree/master/0242-valid-anagram) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/manthanvs/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
+| [1768-merge-strings-alternately](https://github.com/manthanvs/DSA/tree/master/1768-merge-strings-alternately) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
