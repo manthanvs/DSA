@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/manthanvs/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 ## Two Pointers
