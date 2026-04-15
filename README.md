@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/manthanvs/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/manthanvs/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1071-greatest-common-divisor-of-strings](https://github.com/manthanvs/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/manthanvs/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1768-merge-strings-alternately](https://github.com/manthanvs/DSA/tree/master/1768-merge-strings-alternately) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/manthanvs/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
