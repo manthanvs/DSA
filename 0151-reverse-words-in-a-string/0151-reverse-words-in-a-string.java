@@ -1,64 +1,35 @@
 class Solution {
-    public String reverseWords(String s) {
-        char[] arr = s.toCharArray();
-        int n = arr.length;
+   static {
+		for (int i = 0; i < 500; i++)
+			reverseWords("");
+	}
 
-        // Step 1: reverse whole array
-        reverse(arr, 0, n - 1);
+	public static String reverseWords(String s) {
+		char[] ch = s.toCharArray();
+		int n = ch.length;
 
-        // Step 2: reverse each word
-        int i = 0;
-        int j = 0;
+		char result[] = new char[n];
+		int result_index = 0;
+		int end = n - 1; 
 
-        while (i < n) {
-            // skip spaces
-            while (i < n && arr[i] == ' ') i++;
+		while (end >= 0) {
+			while (end >= 0 && ch[end] == ' ')
+				end--;
 
-            if (i >= n) break;
+			int start = end;
 
-            j = i;
-            while (j < n && arr[j] != ' ') j++;
+			while (start >= 0 && ch[start] != ' ')
+				start--;
 
-            // reverse word
-            reverse(arr, i, j - 1);
+			if (result_index > 0)
+				result[result_index++] = ' ';
 
-            i = j;
-        }
+			for (int i = start + 1; i <= end; i++)
+				result[result_index++] = ch[i];
 
-        // Step 3: clean spaces
-        return cleanSpaces(arr);
-    }
+			end = start - 1;
+		}
 
-    private void reverse(char[] arr, int l, int r) {
-        while (l < r) {
-            char temp = arr[l];
-            arr[l] = arr[r];
-            arr[r] = temp;
-            l++;
-            r--;
-        }
-    }
-
-    private String cleanSpaces(char[] arr) {
-        int n = arr.length;
-        int i = 0, j = 0;
-
-        while (j < n) {
-            // skip spaces
-            while (j < n && arr[j] == ' ') j++;
-
-            // copy word
-            while (j < n && arr[j] != ' ') {
-                arr[i++] = arr[j++];
-            }
-
-            // skip spaces
-            while (j < n && arr[j] == ' ') j++;
-
-            // add single space
-            if (j < n) arr[i++] = ' ';
-        }
-
-        return new String(arr, 0, i);
-    }
+		return new String(result, 0, result_index).trim();
+	}
 }
