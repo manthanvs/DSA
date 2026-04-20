@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manthanvs/DSA/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/manthanvs/DSA/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
+| [0334-increasing-triplet-subsequence](https://github.com/manthanvs/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/manthanvs/DSA/tree/master/0605-can-place-flowers) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/manthanvs/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/manthanvs/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manthanvs/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0334-increasing-triplet-subsequence](https://github.com/manthanvs/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/manthanvs/DSA/tree/master/0605-can-place-flowers) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/manthanvs/DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
 ## Counting Sort
