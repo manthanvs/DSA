@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/manthanvs/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manthanvs/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/manthanvs/DSA/tree/master/0027-remove-element) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/manthanvs/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0045-jump-game-ii](https://github.com/manthanvs/DSA/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/manthanvs/DSA/tree/master/0055-jump-game) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/manthanvs/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/manthanvs/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3488-closest-equal-element-queries](https://github.com/manthanvs/DSA/tree/master/3488-closest-equal-element-queries) |
 <!---LeetCode Topics End-->
