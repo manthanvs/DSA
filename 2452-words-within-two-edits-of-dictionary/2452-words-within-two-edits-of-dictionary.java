@@ -1,23 +1,29 @@
+import java.util.*;
+
 class Solution {
     public List<String> twoEditWords(String[] queries, String[] dictionary) {
-        List<String> ans = new ArrayList<>();
+        List<String> result = new ArrayList<>();
 
-        for(String q : queries){
-            for(String d : dictionary){
-                int diff = 0;
-
-                for(int i = 0; i < q.length(); i++){
-                    if(q.charAt(i) != d.charAt(i)) diff++;
-                    if(diff > 2) break;
-                }
-
-                if(diff <= 2){
-                    ans.add(q);
+        for (String q : queries) {
+            for (String d : dictionary) {
+                if (diffAtMostTwo(q, d)) {
+                    result.add(q);
                     break;
                 }
             }
         }
 
-        return ans;
+        return result;
+    }
+
+    private boolean diffAtMostTwo(String a, String b) {
+        int diff = 0;
+        for (int i = 0; i < a.length(); i++) {
+            if (a.charAt(i) != b.charAt(i)) {
+                diff++;
+                if (diff > 2) return false;
+            }
+        }
+        return true;
     }
 }
