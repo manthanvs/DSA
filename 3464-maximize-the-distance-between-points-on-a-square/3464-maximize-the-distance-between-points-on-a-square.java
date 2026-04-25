@@ -6,23 +6,26 @@ class Solution {
         for (int i = 0; i < points.length; i++) {
             long x = points[i][0];
             long y = points[i][1];
-            if (x == 0) res[i] = y;
-            else if (y == lSide) 
+            if (x == 0)
+                res[i] = y;
+            else if (y == lSide)
                 res[i] = lSide + x;
-            else if (x == lSide) 
+            else if (x == lSide)
                 res[i] = lSide * 3 - y;
-            else res[i] = lSide * 4 - x;
+            else
+                res[i] = lSide * 4 - x;
         }
         Arrays.sort(res);
 
         int left = 1;
         int right = (int) ((lSide * 4) / k) + 1;
-        
+
         while (left + 1 < right) {
             int mid = left + (right - left) / 2;
-            if (check(mid, res, lSide, k)) 
+            if (check(mid, res, lSide, k))
                 left = mid;
-            else right = mid;
+            else
+                right = mid;
         }
         return left;
     }
@@ -31,20 +34,20 @@ class Solution {
         int m = res.length;
         int[] idx = new int[k];
         long perimeter = lSide * 4;
-        
+
         idx[0] = 0;
         long curr = res[0];
         for (int i = 1; i < k; i++) {
             int pos = Arrays.binarySearch(res, curr + n);
-            if (pos < 0) 
+            if (pos < 0)
                 pos = -(pos + 1);
-            if (pos == m) 
+            if (pos == m)
                 return false;
             idx[i] = pos;
             curr = res[pos];
         }
-        
-        if (res[idx[k - 1]] - res[0] <= perimeter - n) 
+
+        if (res[idx[k - 1]] - res[0] <= perimeter - n)
             return true;
 
         for (idx[0] = 1; idx[0] < idx[1]; idx[0]++) {
@@ -52,10 +55,10 @@ class Solution {
                 while (idx[j] < m && res[idx[j]] < res[idx[j - 1]] + n) {
                     idx[j]++;
                 }
-                if (idx[j] == m) 
+                if (idx[j] == m)
                     return false;
             }
-            if (res[idx[k - 1]] - res[idx[0]] <= perimeter - n) 
+            if (res[idx[k - 1]] - res[idx[0]] <= perimeter - n)
                 return true;
         }
         return false;
