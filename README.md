@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/manthanvs/DSA/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/manthanvs/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/manthanvs/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -207,4 +208,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/manthanvs/DSA/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
