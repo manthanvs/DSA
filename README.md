@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/manthanvs/DSA/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/manthanvs/DSA/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/manthanvs/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/manthanvs/DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/manthanvs/DSA/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/manthanvs/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Hash Table
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/manthanvs/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/manthanvs/DSA/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Dynamic Programming
@@ -216,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/manthanvs/DSA/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 ## Sliding Window
 |  |
 | ------- |
