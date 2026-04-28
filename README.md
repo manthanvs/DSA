@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/manthanvs/DSA/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/manthanvs/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/manthanvs/DSA/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/manthanvs/DSA/tree/master/0238-product-of-array-except-self) |
+| [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [2615-sum-of-distances](https://github.com/manthanvs/DSA/tree/master/2615-sum-of-distances) |
 ## Design
 |  |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/manthanvs/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/manthanvs/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/manthanvs/DSA/tree/master/3488-closest-equal-element-queries) |
@@ -224,5 +227,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/manthanvs/DSA/tree/master/0643-maximum-average-subarray-i) |
+| [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/manthanvs/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
