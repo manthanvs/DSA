@@ -1,32 +1,28 @@
 class Solution {
-    public long maximumScore(int[][] grid) {
-        int n = grid.length;
-        if (n == 1) 
-            return 0;
-        long[] dp0 = new long[n + 1];
-        long[] dp1 = new long[n + 1];
-        for (int j = 1; j < n; j++) {
-            long[] new_dp0 = new long[n + 1];
-            long[] new_dp1 = new long[n + 1];
-            for (int i = 0; i <= n; i++) {
-                long prev = 0, curr = 0;
-                for (int x = 0; x < i; x++)
-                    curr += grid[x][j];
-                for (int y = 0; y <= n; y++) {
-                    if (y > 0 && y <= i)
-                        curr -= grid[y - 1][j];
-                    if (y > i)
-                        prev += grid[y - 1][j - 1];
-                    new_dp0[y] = Math.max(new_dp0[y], Math.max(prev + dp0[i], dp1[i]));
-                    new_dp1[y] = Math.max(new_dp1[y], Math.max(curr + dp1[i], curr + prev + dp0[i]));
-                }
-            }
-            dp0 = new_dp0;
-            dp1 = new_dp1;
-        }
-        long res = 0;
-        for (long v : dp1) 
-            res = Math.max(res, v);
-        return res;
-    }
+	public long maximumScore(int[][] grid) {
+		int n = grid.length;
+		long[] dp1 = new long[n];
+		long[] dp2 = new long[n];
+		long res = 0, prev1 = 0, prev2 = 0;
+        int i = 0;
+		while (i < n - 1) {
+			long curr = score(grid, dp1, i, prev1, 0, 1, n);
+			prev1 = Math.max(res, prev2);
+			prev2 = score(grid, dp2, i + 1, res, n - 1, -1, -1);
+		    res = Math.max(prev1, curr);
+            i++;
+		}
+		return Math.max(res, prev2);
+	}
+    long score(int[][] grid, long[] dp, int col, long prev, int row, int dir, int stop) {
+		long max = 0;
+		while (row != stop) {
+            max = Math.max(max, prev);
+			prev = dp[row];
+            max += grid[row][col];
+			dp[row] = max;
+            row += dir;
+		}
+		return max;
+	}
 }
