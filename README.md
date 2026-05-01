@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/manthanvs/DSA/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/manthanvs/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/manthanvs/DSA/tree/master/0169-majority-element) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/manthanvs/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/manthanvs/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/manthanvs/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/manthanvs/DSA/tree/master/0151-reverse-words-in-a-string) |
