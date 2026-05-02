@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/manthanvs/DSA/tree/master/0396-rotate-function) |
+| [0788-rotated-digits](https://github.com/manthanvs/DSA/tree/master/0788-rotated-digits) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/manthanvs/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manthanvs/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/manthanvs/DSA/tree/master/0392-is-subsequence) |
 | [0396-rotate-function](https://github.com/manthanvs/DSA/tree/master/0396-rotate-function) |
+| [0788-rotated-digits](https://github.com/manthanvs/DSA/tree/master/0788-rotated-digits) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/manthanvs/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manthanvs/DSA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
