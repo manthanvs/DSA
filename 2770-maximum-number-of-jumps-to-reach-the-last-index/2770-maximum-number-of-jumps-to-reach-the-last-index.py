@@ -1,24 +1,15 @@
 class Solution:
     def maximumJumps(self, nums: List[int], target: int) -> int:
         n = len(nums)
+        mjumps = [-1] * n
+        mjumps[n - 1] = 0
 
-        dp = [-1] * n
-
-        # base case
-        dp[0] = 0
-
-        for i in range(n):
-
-            # unreachable index
-            if dp[i] == -1:
-                continue
-
+        for i in range(n - 2, -1, -1):
+            maxj = 0
             for j in range(i + 1, n):
-
-                diff = nums[j] - nums[i]
-
-                if -target <= diff <= target:
-
-                    dp[j] = max(dp[j], dp[i] + 1)
-
-        return dp[-1]
+                if mjumps[j] >= maxj and -target <= nums[j] - nums[i] <= target:
+                    maxj = mjumps[j]
+                    mjumps[i] = maxj + 1
+        
+        return mjumps[0] if mjumps[0] != 0 else -1
+        
