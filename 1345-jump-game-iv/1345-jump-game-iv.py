@@ -1,44 +1,32 @@
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
-        n = len(arr)
-
-        if n == 1:
+        import collections
+        if len(arr) == 1:
             return 0
-
-        graph = defaultdict(list)
-
-        for i, val in enumerate(arr):
-            graph[val].append(i)
-
-        q = deque([0])
-        visited = [False] * n
-        visited[0] = True
-
-        steps = 0
-
-        while q:
-            for _ in range(len(q)):
-                idx = q.popleft()
-
-                if idx == n - 1:
-                    return steps
-
-                if idx - 1 >= 0 and not visited[idx - 1]:
-                    visited[idx - 1] = True
-                    q.append(idx - 1)
-
-                if idx + 1 < n and not visited[idx + 1]:
-                    visited[idx + 1] = True
-                    q.append(idx + 1)
-
-                if arr[idx] in graph:
-                    for nxt in graph[arr[idx]]:
-                        if not visited[nxt]:
-                            visited[nxt] = True
-                            q.append(nxt)
-
-                    del graph[arr[idx]]
-
-            steps += 1
-
-        return -1       
+        dict = collections.defaultdict(list)
+        for i , n in enumerate(arr):
+            dict[n].append(i)
+        N = len(arr)        
+        visited = {0, N - 1}
+        s1, s2 = {0}, {N - 1}
+        step = 0
+        while s1:
+            if len(s1) > len(s2):
+                s1, s2 = s2, s1
+            s3 = set()
+            while s1:
+                i = s1.pop()
+                for n in [i - 1, i + 1] + dict[arr[i]]:
+                    if n in s2:
+                        return step + 1
+                    if n in visited:
+                        continue
+                    if not 0 <= n < N:
+                        continue
+                    visited.add(n)
+                    s3.add(n)
+                del dict[arr[i]]
+            s1 = s3
+            if s1:
+                step = step + 1
+        return -1
