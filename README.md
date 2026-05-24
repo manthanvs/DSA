@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/manthanvs/DSA/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1306-jump-game-iii](https://github.com/manthanvs/DSA/tree/master/1306-jump-game-iii) |
+| [1340-jump-game-v](https://github.com/manthanvs/DSA/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/manthanvs/DSA/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/manthanvs/DSA/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/manthanvs/DSA/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
+| [1340-jump-game-v](https://github.com/manthanvs/DSA/tree/master/1340-jump-game-v) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/manthanvs/DSA/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/manthanvs/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/manthanvs/DSA/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/manthanvs/DSA/tree/master/0788-rotated-digits) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/manthanvs/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
+| [1340-jump-game-v](https://github.com/manthanvs/DSA/tree/master/1340-jump-game-v) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manthanvs/DSA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/manthanvs/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
