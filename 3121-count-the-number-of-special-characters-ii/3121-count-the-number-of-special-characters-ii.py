@@ -1,10 +1,10 @@
 class Solution:
-    def numberOfSpecialChars(self, word: str) -> int:
-        A = [[False, False] for _ in range(27)]
+    def numberOfSpecialChars(self, word: str, ans = 0) -> int:
+        
+        for ch, CH in zip(ascii_lowercase, ascii_uppercase):
 
-        for ch in word:
-            i = ord(ch) & 31
-            c = ord(ch) >> 5 & 1
-            A[i][c] = not (c and A[i][0])
+            if ch not in word or CH not in word: continue
+  
+            ans+= word.rfind(ch) < word.find(CH)
 
-        return sum(u and v for u, v in A)
+        return ans
