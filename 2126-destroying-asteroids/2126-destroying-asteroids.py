@@ -1,15 +1,19 @@
 class Solution:
     def asteroidsDestroyed(self, mass: int, asteroids: List[int]) -> bool:
-        xmax=max(asteroids)
-        freq=[0]*(1+xmax)
-        for x in asteroids:
-            freq[x]+=1
-        planet=mass
-        for x, f in enumerate(freq):
-            if f==0:
-                continue
-            if x>planet:
+        mx = max(asteroids)
+
+        while asteroids:
+            uneaten = []
+            for aster in asteroids:
+                if mass < aster:
+                    uneaten.append(aster)
+                else:
+                    mass += aster
+                    if mass >= mx:
+                        return True
+            if len(uneaten) == len(asteroids):
                 return False
-            planet+=x*f
-        return True
+            
+            asteroids = uneaten
         
+        return True
