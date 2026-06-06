@@ -1,13 +1,10 @@
 class Solution:
     def leftRightDifference(self, nums: List[int]) -> List[int]:
-        right_sum = sum(nums)
-
+        total_sum = sum(nums)
         left_sum = 0
-        result = []
-
-        for num in nums:
-            right_sum -= num
-            result.append(abs(left_sum - right_sum))
-            left_sum += num
-
-        return result
+        arr = []
+        for i,cur_val in enumerate(nums):
+            arr.append(abs(total_sum - left_sum - cur_val))
+            left_sum += cur_val
+            total_sum -= cur_val
+        return arr
