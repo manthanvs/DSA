@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3660-jump-game-ix](https://github.com/manthanvs/DSA/tree/master/3660-jump-game-ix) |
 | [3689-maximum-total-subarray-value-i](https://github.com/manthanvs/DSA/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/manthanvs/DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/manthanvs/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/manthanvs/DSA/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Two Pointers
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/manthanvs/DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/manthanvs/DSA/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/manthanvs/DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Counting Sort
 |  |
 | ------- |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/manthanvs/DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -381,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3161-block-placement-queries](https://github.com/manthanvs/DSA/tree/master/3161-block-placement-queries) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/manthanvs/DSA/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Enumeration
 |  |
 | ------- |
