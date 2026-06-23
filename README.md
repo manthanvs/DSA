@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3660-jump-game-ix](https://github.com/manthanvs/DSA/tree/master/3660-jump-game-ix) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/manthanvs/DSA/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/manthanvs/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/manthanvs/DSA/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/manthanvs/DSA/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2574-left-and-right-sum-differences](https://github.com/manthanvs/DSA/tree/master/2574-left-and-right-sum-differences) |
 | [2615-sum-of-distances](https://github.com/manthanvs/DSA/tree/master/2615-sum-of-distances) |
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/manthanvs/DSA/tree/master/3699-number-of-zigzag-arrays-i) |
 ## Design
 |  |
 | ------- |
