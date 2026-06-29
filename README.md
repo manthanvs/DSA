@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/manthanvs/DSA/tree/master/0396-rotate-function) |
 | [0788-rotated-digits](https://github.com/manthanvs/DSA/tree/master/0788-rotated-digits) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/manthanvs/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/manthanvs/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/manthanvs/DSA/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/manthanvs/DSA/tree/master/1840-maximum-building-height) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/manthanvs/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Recursion
 |  |
