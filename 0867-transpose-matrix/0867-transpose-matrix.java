@@ -1,12 +1,15 @@
 class Solution {
     public int[][] transpose(int[][] matrix) {
-        int[][] tarnsposematrix = new int[matrix[0].length][matrix.length];
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int transposematrix[][] = new int[cols][rows];
 
         for(int i = 0 ; i < matrix[0].length ; i++){
             for(int j = 0 ; j < matrix.length ; j++){
-                tarnsposematrix[i][j] = matrix[j][i];
+                transposematrix[i][j] = matrix[j][i];
             }
         }
-        return tarnsposematrix;
+        return transposematrix;
     }
 }
