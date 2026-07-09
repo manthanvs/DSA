@@ -20,7 +20,6 @@ class Solution:
         for i, (l, r) in enumerate(queries):
             length = count[r + 1] - count[l]
             ans[i] = (x[r + 1] - x[l] * pow10[length]) * (sum[r + 1] - sum[l]) % MOD
-
         return ans
         # preprocessing:
         # time: O(maximum possible string length)
