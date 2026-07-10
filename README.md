@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/manthanvs/DSA/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/manthanvs/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/manthanvs/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/manthanvs/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/manthanvs/DSA/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2540-minimum-common-value](https://github.com/manthanvs/DSA/tree/master/2540-minimum-common-value) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Sorting
 |  |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2784-check-if-array-is-good](https://github.com/manthanvs/DSA/tree/master/2784-check-if-array-is-good) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Hash Table
 |  |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/manthanvs/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3660-jump-game-ix](https://github.com/manthanvs/DSA/tree/master/3660-jump-game-ix) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/manthanvs/DSA/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -261,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/manthanvs/DSA/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/manthanvs/DSA/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/manthanvs/DSA/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/manthanvs/DSA/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/manthanvs/DSA/tree/master/3691-maximum-total-subarray-value-ii) |
@@ -353,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3488-closest-equal-element-queries](https://github.com/manthanvs/DSA/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/manthanvs/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Depth-First Search
 |  |
@@ -384,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/manthanvs/DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/manthanvs/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 ## Recursion
 |  |
@@ -498,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/manthanvs/DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/manthanvs/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/manthanvs/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/manthanvs/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Shortest Path
 |  |
 | ------- |
