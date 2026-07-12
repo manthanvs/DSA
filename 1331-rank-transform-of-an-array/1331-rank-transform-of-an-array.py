@@ -1,0 +1,5 @@
+from scipy.stats import rankdata
+
+class Solution(object):
+    def arrayRankTransform(self, A):
+        return rankdata(A, 'dense').tolist()
