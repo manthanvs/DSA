@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/manthanvs/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/manthanvs/DSA/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/manthanvs/DSA/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/manthanvs/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manthanvs/DSA/tree/master/0380-insert-delete-getrandom-o1) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/manthanvs/DSA/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/manthanvs/DSA/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/manthanvs/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/manthanvs/DSA/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/manthanvs/DSA/tree/master/0345-reverse-vowels-of-a-string) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/manthanvs/DSA/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/manthanvs/DSA/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/manthanvs/DSA/tree/master/0231-power-of-two) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/manthanvs/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
@@ -465,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/manthanvs/DSA/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/manthanvs/DSA/tree/master/0682-baseball-game) |
 | [0867-transpose-matrix](https://github.com/manthanvs/DSA/tree/master/0867-transpose-matrix) |
 | [1914-cyclically-rotating-a-grid](https://github.com/manthanvs/DSA/tree/master/1914-cyclically-rotating-a-grid) |
