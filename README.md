@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/manthanvs/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manthanvs/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manthanvs/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/manthanvs/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/manthanvs/DSA/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/manthanvs/DSA/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manthanvs/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/manthanvs/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/manthanvs/DSA/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/manthanvs/DSA/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/manthanvs/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/manthanvs/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/manthanvs/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/manthanvs/DSA/tree/master/0242-valid-anagram) |
@@ -402,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/manthanvs/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/manthanvs/DSA/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/manthanvs/DSA/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
