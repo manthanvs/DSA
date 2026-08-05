@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2553-separate-the-digits-in-an-array](https://github.com/manthanvs/DSA/tree/master/2553-separate-the-digits-in-an-array) |
 | [2574-left-and-right-sum-differences](https://github.com/manthanvs/DSA/tree/master/2574-left-and-right-sum-differences) |
 | [2615-sum-of-distances](https://github.com/manthanvs/DSA/tree/master/2615-sum-of-distances) |
+| [2643-row-with-maximum-ones](https://github.com/manthanvs/DSA/tree/master/2643-row-with-maximum-ones) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/manthanvs/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/manthanvs/DSA/tree/master/2784-check-if-array-is-good) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/manthanvs/DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -485,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1861-rotating-the-box](https://github.com/manthanvs/DSA/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/manthanvs/DSA/tree/master/1914-cyclically-rotating-a-grid) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2643-row-with-maximum-ones](https://github.com/manthanvs/DSA/tree/master/2643-row-with-maximum-ones) |
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/manthanvs/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/manthanvs/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
