@@ -1,14 +1,14 @@
 class Solution:
     def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
-        hashmap = {}
+
+        max_ones = 0
+        row_index = 0
 
         for i in range(len(mat)):
-            for j in range(len(mat[i])):
-                if mat[i][j] == 1:
-                    hashmap[i] = hashmap.get(i, 0) + 1
+            ones = sum(mat[i])
 
-        if not hashmap:
-            return [0, 0]
+            if ones > max_ones:
+                max_ones = ones
+                row_index = i
 
-        row = max(hashmap, key=hashmap.get)
-        return [row, hashmap[row]]
+        return [row_index, max_ones]
