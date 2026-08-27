@@ -1,55 +1,36 @@
+INVALID='{'
 class Solution:
     def lexGreaterPermutation(self, s: str, target: str) -> str:
-        n = len(s)
+        c=Counter(s)
+        n=len(s)
+        endi = n
+        for i in range(n):
+            ch = target[i]
+            if ch not in c:
+                endi = i
+                break
+            else:
+                c[ch]-=1
+                if c[ch]==0: c.pop(ch)
+        if endi==n:
+            endi=n-1
+            c[target[endi]]+=1
+        # print(c, endi)
+        for i in range(endi, -1, -1):
+            ch = target[i]
+            x=INVALID
+            for y in c.keys():
+                if y>ch and y<x: x=y
+            if x!=INVALID:
+                res=[target[:i], x]
+                c[x]-=1
+                for y in sorted(c.keys()):
+                    res.append(y*c[y])
+                return ''.join(res)
+            elif i>0:
+                c[target[i-1]]+=1
+        return "" 
+        # print(endi, c)
+        # return s
 
-        # Frequency of characters in s
-        cnt = [0] * 26
-
-        for c in s:
-            cnt[ord(c) - ord('a')] += 1
-
-        # Try the position where we make the string greater.
-        # Rightmost position is preferred.
-        for i in range(n - 1, -1, -1):
-
-            # Rebuild the frequency array for this pivot.
-            remain = cnt[:]
-
-            # Try to keep target[0 ... i-1] unchanged.
-            possible = True
-
-            for j in range(i):
-                x = ord(target[j]) - ord('a')
-
-                if remain[x] == 0:
-                    possible = False
-                    break
-
-                remain[x] -= 1
-
-            if not possible:
-                continue
-
-            # At position i, we need the smallest
-            # available character strictly greater than target[i].
-            target_char = ord(target[i]) - ord('a')
-
-            for c in range(target_char + 1, 26):
-
-                if remain[c] == 0:
-                    continue
-
-                ans = target[:i]
-
-                # Make the first difference here.
-                ans += chr(ord('a') + c)
-
-                remain[c] -= 1
-
-                # Fill the rest in sorted order.
-                for x in range(26):
-                    ans += chr(ord('a') + x) * remain[x]
-
-                return ans
-
-        return ""
+        
