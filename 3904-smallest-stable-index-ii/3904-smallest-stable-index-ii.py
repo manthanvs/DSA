@@ -1,15 +1,19 @@
 class Solution:
-    def firstStableIndex(self, A: List[int], k: int) -> int:
-        pmax = -1
-        cand = cmax = 0
+    def firstStableIndex(self, nums: list[int], k: int) -> int:
+        n = len(nums)
+        mini = [0] * n
 
-        for i, x in enumerate(A):
-            pmax = max(pmax, x)
+        mint = float('inf')
+        for i in range(n - 1, -1, -1):
+            if nums[i] < mint:
+                mint = nums[i]
+            mini[i] = mint
 
-            if i == cand:
-                cmax = pmax
+        maxt = 0
+        for i in range(n):
+            if nums[i] > maxt:
+                maxt = nums[i]
+            if maxt - mini[i] <= k:
+                return i
 
-            if x < cmax - k:
-                cand = i + 1
-
-        return cand if cand < len(A) else -1
+        return -1
