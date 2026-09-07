@@ -1,18 +1,13 @@
 class Solution:
-    def distinctSubseqII(self, s):
-        n = len(s)
-        MOD = 10**9 + 7
+    def distinctSubseqII(self, s: str) -> int:
+        MOD = 10 ** 9 + 7
 
-        countEndWith = [0] * 26
-        total = 0
+        dp = 1  # empty subsequence
+        last = {}
 
-        for i in range(n):
-            idx = ord(s[i]) - ord('a')
+        for ch in s:
+            new_dp = (dp * 2 - last.get(ch, 0)) % MOD
+            last[ch] = dp
+            dp = new_dp
 
-            cur = (1 + total - countEndWith[idx] + MOD) % MOD
-
-            total = (total + cur) % MOD
-
-            countEndWith[idx] = (countEndWith[idx] + cur) % MOD
-
-        return total
+        return (dp - 1) % MOD
