@@ -1,20 +1,31 @@
+from typing import List
+
 class Solution:
-    def minSumOfLengths(self, A: List[int], k: int) -> int:
-        n = len(A)
-        res, tot, i = n + 1, 0, 0
+    def minSumOfLengths(self, arr: List[int], target: int) -> int:
+        n = len(arr)
+        INF = float('inf')
 
-        dp = [n] * (n + 1)
+        best = [INF] * n
+        left = 0
+        curr = 0
+        ans = INF
+        min_len = INF
 
-        for j in range(n):
-            tot += A[j]
+        for right in range(n):
+            curr += arr[right]
 
-            while tot > k:
-                tot -= A[i]
-                i += 1
-            dp[j + 1] = dp[j]
+            while curr > target:
+                curr -= arr[left]
+                left += 1
 
-            if tot == k:
-                res = min(res, j - i + 1 + dp[i])
-                dp[j + 1] = min(dp[j], j - i + 1)
+            if curr == target:
+                length = right - left + 1
 
-        return -1 if res == n + 1 else res
+                if left > 0 and best[left - 1] != INF:
+                    ans = min(ans, length + best[left - 1])
+
+                min_len = min(min_len, length)
+
+            best[right] = min_len
+
+        return -1 if ans == INF else ans
