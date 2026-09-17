@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/manthanvs/DSA/tree/master/1406-stone-game-iii) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/manthanvs/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/manthanvs/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/manthanvs/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/manthanvs/DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manthanvs/DSA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/manthanvs/DSA/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/manthanvs/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1345-jump-game-iv](https://github.com/manthanvs/DSA/tree/master/1345-jump-game-iv) |
 | [1386-cinema-seat-allocation](https://github.com/manthanvs/DSA/tree/master/1386-cinema-seat-allocation) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/manthanvs/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/manthanvs/DSA/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/manthanvs/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/manthanvs/DSA/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/manthanvs/DSA/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1340-jump-game-v](https://github.com/manthanvs/DSA/tree/master/1340-jump-game-v) |
 | [1406-stone-game-iii](https://github.com/manthanvs/DSA/tree/master/1406-stone-game-iii) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/manthanvs/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manthanvs/DSA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1871-jump-game-vii](https://github.com/manthanvs/DSA/tree/master/1871-jump-game-vii) |
 | [1872-stone-game-viii](https://github.com/manthanvs/DSA/tree/master/1872-stone-game-viii) |
@@ -467,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manthanvs/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/manthanvs/DSA/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/manthanvs/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/manthanvs/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [2540-minimum-common-value](https://github.com/manthanvs/DSA/tree/master/2540-minimum-common-value) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/manthanvs/DSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -566,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/manthanvs/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/manthanvs/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/manthanvs/DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/manthanvs/DSA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1871-jump-game-vii](https://github.com/manthanvs/DSA/tree/master/1871-jump-game-vii) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/manthanvs/DSA/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
