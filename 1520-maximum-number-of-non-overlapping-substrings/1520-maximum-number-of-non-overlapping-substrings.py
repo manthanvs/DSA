@@ -1,51 +1,26 @@
 class Solution:
-    def maxNumOfSubstrings(self, s):
+    def maxNumOfSubstrings(self, s: str) -> List[str]:
         n = len(s)
+        counts = Counter(s)
+        first = {k: s.find(k) for k in counts}
+        last = {k: s.rfind(k) for k in counts}
+        
+        res = []
+        queue = deque()
 
-        first = [n] * 26
-        last = [-1] * 26
+        for k in counts:
+            queue.appendleft([first[k], last[k], counts[k]])
+            left, right, total = inf, -inf, 0
 
-        # Find first and last occurrence
-        for i, ch in enumerate(s):
-            c = ord(ch) - ord('a')
-            first[c] = min(first[c], i)
-            last[c] = i
-
-        intervals = []
-
-        # Build valid intervals
-        for c in range(26):
-            if last[c] == -1:
-                continue
-
-            l, r = first[c], last[c]
-            valid = True
-
-            i = l
-            while i <= r:
-                x = ord(s[i]) - ord('a')
-
-                # x has an occurrence before l
-                if first[x] < l:
-                    valid = False
+            for x, y, z in queue:
+                total += z
+                left = min(left, x)
+                right = max(right, y)
+                if total == right - left + 1:
                     break
 
-                # Must include all occurrences of x
-                r = max(r, last[x])
-                i += 1
+            if total == right - left + 1:
+                res.append(s[left:right+1])
+                queue = deque()
 
-            if valid:
-                intervals.append((r, l))
-
-        # Earliest ending interval first
-        intervals.sort()
-
-        ans = []
-        prevEnd = -1
-
-        for r, l in intervals:
-            if l > prevEnd:
-                ans.append(s[l:r + 1])
-                prevEnd = r
-
-        return ans
+        return res
