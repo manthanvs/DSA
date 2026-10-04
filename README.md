@@ -324,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/manthanvs/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/manthanvs/DSA/tree/master/0392-is-subsequence) |
 | [0396-rotate-function](https://github.com/manthanvs/DSA/tree/master/0396-rotate-function) |
+| [0678-valid-parenthesis-string](https://github.com/manthanvs/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0788-rotated-digits](https://github.com/manthanvs/DSA/tree/master/0788-rotated-digits) |
 | [0877-stone-game](https://github.com/manthanvs/DSA/tree/master/0877-stone-game) |
 | [0940-distinct-subsequences-ii](https://github.com/manthanvs/DSA/tree/master/0940-distinct-subsequences-ii) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/manthanvs/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0334-increasing-triplet-subsequence](https://github.com/manthanvs/DSA/tree/master/0334-increasing-triplet-subsequence) |
 | [0605-can-place-flowers](https://github.com/manthanvs/DSA/tree/master/0605-can-place-flowers) |
+| [0678-valid-parenthesis-string](https://github.com/manthanvs/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/manthanvs/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/manthanvs/DSA/tree/master/1386-cinema-seat-allocation) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/manthanvs/DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -402,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/manthanvs/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0345-reverse-vowels-of-a-string](https://github.com/manthanvs/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/manthanvs/DSA/tree/master/0392-is-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/manthanvs/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0796-rotate-string](https://github.com/manthanvs/DSA/tree/master/0796-rotate-string) |
 | [0940-distinct-subsequences-ii](https://github.com/manthanvs/DSA/tree/master/0940-distinct-subsequences-ii) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/manthanvs/DSA/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -607,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/manthanvs/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/manthanvs/DSA/tree/master/0042-trapping-rain-water) |
 | [0316-remove-duplicate-letters](https://github.com/manthanvs/DSA/tree/master/0316-remove-duplicate-letters) |
+| [0678-valid-parenthesis-string](https://github.com/manthanvs/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/manthanvs/DSA/tree/master/0682-baseball-game) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/manthanvs/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/manthanvs/DSA/tree/master/1096-brace-expansion-ii) |
@@ -747,5 +751,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/manthanvs/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/manthanvs/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/manthanvs/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 <!---LeetCode Topics End-->
