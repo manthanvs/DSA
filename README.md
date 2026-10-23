@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/manthanvs/DSA/tree/master/0724-find-pivot-index) |
 | [0867-transpose-matrix](https://github.com/manthanvs/DSA/tree/master/0867-transpose-matrix) |
 | [0877-stone-game](https://github.com/manthanvs/DSA/tree/master/0877-stone-game) |
+| [0977-squares-of-a-sorted-array](https://github.com/manthanvs/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/manthanvs/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1260-shift-2d-grid](https://github.com/manthanvs/DSA/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/manthanvs/DSA/tree/master/1288-remove-covered-intervals) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manthanvs/DSA/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/manthanvs/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/manthanvs/DSA/tree/master/0392-is-subsequence) |
+| [0977-squares-of-a-sorted-array](https://github.com/manthanvs/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/manthanvs/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/manthanvs/DSA/tree/master/1768-merge-strings-alternately) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/manthanvs/DSA/tree/master/1855-maximum-distance-between-a-pair-of-values) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/manthanvs/DSA/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/manthanvs/DSA/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/manthanvs/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0977-squares-of-a-sorted-array](https://github.com/manthanvs/DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1096-brace-expansion-ii](https://github.com/manthanvs/DSA/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/manthanvs/DSA/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/manthanvs/DSA/tree/master/1331-rank-transform-of-an-array) |
