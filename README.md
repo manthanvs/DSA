@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/manthanvs/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/manthanvs/DSA/tree/master/2029-stone-game-ix) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/manthanvs/DSA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2409-count-days-spent-together](https://github.com/manthanvs/DSA/tree/master/2409-count-days-spent-together) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/manthanvs/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/manthanvs/DSA/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/manthanvs/DSA/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/manthanvs/DSA/tree/master/1871-jump-game-vii) |
 | [1927-sum-game](https://github.com/manthanvs/DSA/tree/master/1927-sum-game) |
 | [2011-final-value-of-variable-after-performing-operations](https://github.com/manthanvs/DSA/tree/master/2011-final-value-of-variable-after-performing-operations) |
+| [2409-count-days-spent-together](https://github.com/manthanvs/DSA/tree/master/2409-count-days-spent-together) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/manthanvs/DSA/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/manthanvs/DSA/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/manthanvs/DSA/tree/master/2833-furthest-point-from-origin) |
