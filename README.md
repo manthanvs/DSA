@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/manthanvs/DSA/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/manthanvs/DSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/manthanvs/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/manthanvs/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/manthanvs/DSA/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/manthanvs/DSA/tree/master/3644-maximum-k-to-sort-a-permutation) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3310-remove-methods-from-project](https://github.com/manthanvs/DSA/tree/master/3310-remove-methods-from-project) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/manthanvs/DSA/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/manthanvs/DSA/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/manthanvs/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Union-Find
 |  |
 | ------- |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/manthanvs/DSA/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/manthanvs/DSA/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/manthanvs/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/manthanvs/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Trie
 |  |
 | ------- |
@@ -608,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/manthanvs/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3310-remove-methods-from-project](https://github.com/manthanvs/DSA/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/manthanvs/DSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/manthanvs/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/manthanvs/DSA/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Matrix
 |  |
@@ -627,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/manthanvs/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/manthanvs/DSA/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/manthanvs/DSA/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/manthanvs/DSA/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Sliding Window
 |  |
