@@ -1,10 +1,26 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
-        vowels = set("aeiou"); left = count = result = 0
-        for right in range(len(s)):
-            count += 1 if s[right] in vowels else 0
-            if right - left + 1 > k: 
-                count -= 1 if s[left] in vowels else 0
-                left +=1 
-            result = max(result, count)
-        return result
+        # Count the first window using built-in string operations.
+        count = best = sum(s.count(v, 0, k) for v in "aeiou")
+
+        if best == k or k == len(s):
+            return best
+
+        # Convert each character to 1 for a vowel, 0 otherwise.
+        table = bytes(1 if c in b"aeiou" else 0 for c in range(256))
+        flags = s.encode().translate(table)
+
+        for outgoing, incoming in zip(flags, flags[k:]):
+            if incoming:
+                if not outgoing:
+                    # A vowel replaces a consonant: count increases.
+                    count += 1
+                    if count > best:
+                        best = count
+                        if best == k:
+                            return k
+            elif outgoing:
+                # A consonant replaces a vowel: count decreases.
+                count -= 1
+
+        return best
