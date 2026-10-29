@@ -1,25 +1,3 @@
-"""
-Constraints:
-1 <= n == s.length <= 5 * 10^4
-edges.length == n - 1
-edges[i] = [ui, vi]
-0 <= ui, vi <= n - 1
-s consists of lowercase English letters.
-The input is generated such that edges represents a valid tree.
-1 <= queries.length <= 5 * 10^4​​​​​​​
-queries[i] = "update ui c" or
-queries[i] = "query ui vi"
-0 <= ui, vi <= n - 1
-c is a lowercase English letter.
-
-Hints:
-Use heavy light decomposition to break each path query into O(log n) segments.
-Represent characters as a 26-bit mask and maintain segment data with XOR. A path can form a palindrome if the resulting mask has at most one bit set.
-
-Copied without trying to understand:
-https://leetcode.com/problems/palindromic-path-queries-in-a-tree/solutions/7579030/brilliant-python3cpp-implementation-onq-vn85l
-
-"""
 class Solution:
     def palindromePath(self, n: int, E: list[list[int]], s: str, Q: list[str]) -> list[bool]:
         P, D = [0] * n, [0] * n
