@@ -1,90 +1,75 @@
+"""
+Constraints:
+1 <= n == s.length <= 5 * 10^4
+edges.length == n - 1
+edges[i] = [ui, vi]
+0 <= ui, vi <= n - 1
+s consists of lowercase English letters.
+The input is generated such that edges represents a valid tree.
+1 <= queries.length <= 5 * 10^4​​​​​​​
+queries[i] = "update ui c" or
+queries[i] = "query ui vi"
+0 <= ui, vi <= n - 1
+c is a lowercase English letter.
+
+Hints:
+Use heavy light decomposition to break each path query into O(log n) segments.
+Represent characters as a 26-bit mask and maintain segment data with XOR. A path can form a palindrome if the resulting mask has at most one bit set.
+
+Copied without trying to understand:
+https://leetcode.com/problems/palindromic-path-queries-in-a-tree/solutions/7579030/brilliant-python3cpp-implementation-onq-vn85l
+
+"""
 class Solution:
-    def palindromePath(self, n: int, edges: list[list[int]], s: str, queries: list[str]) -> list[bool]:
-        g = [[] for _ in range(n)]
-        for u, v in edges:
-            g[u].append(v)
-            g[v].append(u)
-        LOG = 16
-        up = [[-1] * n for _ in range(LOG)]
-        depth = [0] * n
-        inn = [0] * n
-        out = [0] * n
-        parent = [-1] * n
-        mask = [1 << (ord(c) - 97) for c in s]
-        timer = [1]
-        def dfs(u, p):
-            inn[u] = timer[0]
-            timer[0] += 1
-            parent[u] = p
-            up[0][u] = p
-            for k in range(1, LOG):
-                if up[k - 1][u] != -1:
-                    up[k][u] = up[k - 1][up[k - 1][u]]
-            for v in g[u]:
-                if v != p:
-                    depth[v] = depth[u] + 1
-                    dfs(v, u)
-            out[u] = timer[0]
-        dfs(0, -1)
-        bit = [0] * (n + 2)
-        def upd(i, val):
-            while i <= n:
-                bit[i] ^= val
-                i += i & -i
-        def qry(i):
-            res = 0
-            while i > 0:
-                res ^= bit[i]
-                i -= i & -i
-            return res
-        def range_xor(l, r, val):
-            if l > r:
-                return
-            upd(l, val)
-            upd(r + 1, val)
-        for i in range(n):
-            range_xor(inn[i], out[i] - 1, mask[i])
-        def get_lca(u, v):
-            if depth[u] < depth[v]:
-                u, v = v, u
-            diff = depth[u] - depth[v]
-            for k in range(LOG):
-                if (diff >> k) & 1:
-                    u = up[k][u]
-            if u == v:
-                return u
-            for k in range(LOG - 1, -1, -1):
-                if up[k][u] != up[k][v]:
-                    u = up[k][u]
-                    v = up[k][v]
-            return parent[u]
-        def path_xor(u, v):
-            l = get_lca(u, v)
-            return qry(inn[u]) ^ qry(inn[v]) ^ mask[l]
-        ans = []
-        for q in queries:
-            if q[0] == 'u':
-                u = 0
-                i = 7
-                while q[i] != ' ':
-                    u = u * 10 + (ord(q[i]) - 48)
-                    i += 1
-                c = q[-1]
-                nm = 1 << (ord(c) - 97)
-                delta = mask[u] ^ nm
-                mask[u] = nm
-                range_xor(inn[u], out[u] - 1, delta)
-            else:
-                u = 0
-                v = 0
-                i = 6
-                while q[i] != ' ':
-                    u = u * 10 + (ord(q[i]) - 48)
-                    i += 1
-                i += 1
-                while i < len(q):
-                    v = v * 10 + (ord(q[i]) - 48)
-                    i += 1
-                m = path_xor(u, v)
-                ans.append(bin(m).count('1') <= 1)
-        return ans
+    def palindromePath(self, n: int, E: list[list[int]], s: str, Q: list[str]) -> list[bool]:
+        P, D = [0] * n, [0] * n
+        D[0] = 2
+        for u, v in E: P[u], P[v], D[u], D[v] = P[u] ^ v, P[v] ^ u, D[u] + 1, D[v] + 1
+
+        SS, C, QQ = [1] * n, [-1] * n, [i for i in range(n) if D[i] == 1]
+        for i in QQ:
+            p, ss = P[i], SS[i]
+            SS[p] += ss
+            if (c := C[p]) == -1 or ss > SS[c]: C[p] = i
+
+            P[p], D[p] = P[p] ^ i, D[p] - 1
+            if D[p] == 1: QQ.append(p)
+        QQ.append(0)
+
+        T, D, L, t = [-1] * n, [-1] * n, [0] * n, 0
+        for i in reversed(QQ):
+            if ~D[i]: continue
+
+            tt = i
+            while ~i: T[i], L[t], D[i], t, i = tt, 1 << ord(s[i]) - 97, t, t + 1, C[i]
+        
+        B = [0] + L
+        for i in range(1, n + 1):
+            j = i + (i & -i)
+            if j <= n: B[j] ^= B[i]
+        
+        A = []
+        for q in Q:
+            match q.split():
+                case ("update", i, c):
+                    x = D[int(i)]
+                    v = (1 << ord(c) - 97)
+                    d = v ^ L[x]
+                    L[x] = v
+                    x += 1
+                    while x <= n: B[x], x = B[x] ^ d, x + (x & -x)
+                case ("query", u, v):
+                    u, v = map(int, (u, v))
+                    r = 0
+                    while T[u] != T[v]:
+                        if D[T[u]] < D[T[v]]: u, v = v, u
+                        ss, tt = D[T[u]], D[u] + 1
+                        while tt > ss: r, tt = r ^ B[tt], tt & (tt - 1)
+                        while ss > tt: r, ss = r ^ B[ss], ss & (ss - 1)
+                        u = P[T[u]]
+                    if D[u] > D[v]: u, v = v, u
+                    ss, tt = D[u], D[v] + 1
+                    while tt > ss: r, tt = r ^ B[tt], tt & (tt - 1)
+                    while ss > tt: r, ss = r ^ B[ss], ss & (ss - 1)
+                    A.append(r & (r - 1) == 0)
+        return A
