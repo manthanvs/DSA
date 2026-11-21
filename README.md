@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2778-sum-of-squares-of-special-elements](https://github.com/manthanvs/DSA/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2784-check-if-array-is-good](https://github.com/manthanvs/DSA/tree/master/2784-check-if-array-is-good) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/manthanvs/DSA/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/manthanvs/DSA/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/manthanvs/DSA/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/manthanvs/DSA/tree/master/3093-longest-common-suffix-queries) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/manthanvs/DSA/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2784-check-if-array-is-good](https://github.com/manthanvs/DSA/tree/master/2784-check-if-array-is-good) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/manthanvs/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/manthanvs/DSA/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/manthanvs/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/manthanvs/DSA/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/manthanvs/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-total-distance-traveled](https://github.com/manthanvs/DSA/tree/master/2463-minimum-total-distance-traveled) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/manthanvs/DSA/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/manthanvs/DSA/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [3041-maximize-consecutive-elements-in-an-array-after-modification](https://github.com/manthanvs/DSA/tree/master/3041-maximize-consecutive-elements-in-an-array-after-modification) |
 | [3225-maximum-score-from-grid-operations](https://github.com/manthanvs/DSA/tree/master/3225-maximum-score-from-grid-operations) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/manthanvs/DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/manthanvs/DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
