@@ -1,11 +1,7 @@
 class Solution:
     def canAliceWin(self, n: int) -> bool:
-        if n < 10: return False
-        if n < 19: return True
-        if n < 27: return False
-        if n < 34: return True
-        if n < 40: return False
-        if n < 45: return True
-        if n < 49: return False
-        
-        return True
+        for i in range(10, -1,-1):
+            if n < i:
+                return i%2 != 0
+            n -= i
+        return False
